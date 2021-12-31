@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 100vh;
+}
+
+@media (max-width: 605px) {
+    .image {
+        width: 100%;
+        height: auto;
+    }
+}
